@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    height: 100vh;
+    width: 100%;
+    background: url("/background.jpg") center/cover fixed;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: 70%;
+    margin: 0 auto;
+    background: rgba(146, 146, 146, 0.404);
+    border-radius: 50px;
+}
+
+.container h2 {
+    text-transform: uppercase;
+    margin: 50px auto;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    color: rgb(132, 0, 255);
+    text-shadow: 4px 4px 10px white;
+}
+
+.pricePerNight {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+    font-weight: 550;
+    font-family: sans-serif;
+    margin-bottom: 40px;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 60%;
+}
+
+form h4 {
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    text-shadow: 4px 4px 10px white;
+}
+
+input[type="date"] {
+    width: 35%;
+    height: 45px;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 1.1rem;
+    border: none;
+}
+
+#Price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 30%;
+    height: 60px;
+    background: green;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.579);
+}
+
+#Price p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    font-size: 1.4rem;
+    font-weight: 550;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+}
+
+
+
+input[type="submit"] {
+    width: 15%;
+    height: 45px;
+    border-radius: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
